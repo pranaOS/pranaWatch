@@ -8,3 +8,18 @@
  * @copyright Copyright (c) 2023 Krisna Pranav, pranaOS Developers
  * 
  */
+
+#pragma once
+
+#include "Config.h"
+#include <Arduino.h>
+
+class TimeUtils {
+public:
+    /**
+     * @brief Get the Current Time In Seconds object
+     * 
+     * @return uint 
+     */
+    static uint getCurrentTimeInSec();
+}
